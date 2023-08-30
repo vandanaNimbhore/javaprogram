@@ -11,7 +11,7 @@ public class SameString {
 		
 		for(int i=0;i<=st.length-1;i++)
 		{
-			boolean result=st[i].contains("yahoo");
+			boolean result=st[i].contains("@");
 			if(result==true)
 			{
 			System.out.println(st[i]);

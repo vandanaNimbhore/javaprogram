@@ -2,17 +2,25 @@ package stringConcept;
 
 public class Reverse123 {
 	public static void main(String[] args) {
-		String str="Vandana Avinash Nimbhore"; 
+		String str="Vandana  Nimbhore Borde"; 
+		String output="";
 		// india world hello
 		String s[]=str.split(" ");
-		for(int i=s.length-1;i>=0;i--)
+		
+		for(int i=0;i<s.length;i++)
+		
 		{
-		
-		System.out.print(s[i]);
-		System.out.print(" ");
-		
-		
+		    for(int j=i+1;j<s.length;j++)
+		    {
+		    	String swap=s[i];
+		    	s[i]=s[j];
+		    	s[j]=swap;
+		    }
+		    System.out.print (s[i]+" ");
+          		
 		}
+		
+		
 		
 	}
 

@@ -2,7 +2,9 @@ package stringConcept;
 
 public class DuplicateString {
 	public static void main(String[] args) {
-		String str="indiaa";
+		String str="indiaai";
+		
+		
 		char ch[]=str.toCharArray(); 
 		//char st='0';
 			for(int i=0;i<str.length();i++)
@@ -11,8 +13,8 @@ public class DuplicateString {
 			{
 				if(ch[i]==ch[j])
 				{
-					 System.out.println(ch[i]);
 					
+					System.out.println(ch[i]);
 				}
 			}
 			

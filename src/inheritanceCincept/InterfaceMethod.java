@@ -8,5 +8,6 @@ public interface InterfaceMethod {
 	{
 		System.out.println("complete method by using default ");
 	}*/
+	public void pin();
 		
 }
