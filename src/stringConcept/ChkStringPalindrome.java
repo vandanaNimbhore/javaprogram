@@ -17,6 +17,7 @@ public class ChkStringPalindrome {
 	else
 	{
 		System.out.println("String is not palindrome");
+		System.out.println();
 	}
 	
 		
