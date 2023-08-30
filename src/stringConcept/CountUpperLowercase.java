@@ -11,17 +11,17 @@ public class CountUpperLowercase {
 		System.out.println(s);
 		for(int i=0;i<s.length();i++)
 		{
-		char ch[]=s.toCharArray();
-		if(ch[i]>='A' && ch[i]<='Z')
+		//char ch[]=s.toCharArray();
+		if(str.charAt(i)>='A' && str.charAt(i)<='Z')
 		{
 			Cupper++;
-			Pupper=Pupper+ch[i];
+			Pupper=Pupper+str.charAt(i);
 			
 		}
 		else
 		{
 			Clower++;
-			Plower=Plower+ch[i];
+			Plower=Plower+str.charAt(i);
 			
 		}
 		}

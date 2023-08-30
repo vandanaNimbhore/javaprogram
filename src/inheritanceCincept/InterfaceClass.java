@@ -12,6 +12,10 @@ public class InterfaceClass implements InterfaceMethod ,Interface1
 	{
 		System.out.println("default class method");
 	}*/
+	public void pin()
+	{
+		
+	}
 	
 		public static void main(String[] args) {
 		InterfaceClass obj=new InterfaceClass();
@@ -19,11 +23,11 @@ public class InterfaceClass implements InterfaceMethod ,Interface1
 		obj.demo1();
 		//obj.demo2();  //complete method calling 
 		System.out.println(a);
-		System.out.println(InterfaceClass.a);
+		System.out.println(InterfaceClass.a);    
 		System.out.println(InterfaceMethod.a);// also calling interface
 		//obj.a=40; //its not allow because in interfaces values are not chnage.
 		
-		
+		obj.pin();
 	}
 	@Override
 	public void data() {

@@ -11,7 +11,7 @@ public class Conversion {
 	     for(int i=0;i<str.length();i++)
 	     {
 	    	 if(ch[i]>=97&&ch[i]<=122)
-	    	 {
+	    	 { 
 	    		  st= str.toUpperCase();
 	    	 }
 	    	 else if(ch[i]>=41 &&ch[i]<=96)
