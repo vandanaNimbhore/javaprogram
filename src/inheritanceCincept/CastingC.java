@@ -4,10 +4,11 @@ public class CastingC extends CastingB {
 	public void print() {
 		System.out.println("hiiiiii");
 	}
-	public void add()
+	public void demo1()
 	{
-		System.out.println("welcome");
+		System.out.println("c");
 	}
+	
 	
 	public static void main(String[] args) {
 		CastingA ob=new CastingA();

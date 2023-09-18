@@ -9,10 +9,7 @@ public class DublicateHashMap {
 	String str="india is country india";
 	LinkedHashSet lk=new LinkedHashSet();
 	lk.add(str);
-	for(Object s:lk)
-	{
-		System.out.println(lk);
-	}
+	System.out.println(lk);
 	
 }
 }

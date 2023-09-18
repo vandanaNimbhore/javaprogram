@@ -4,20 +4,20 @@ public class Conversion {
 	
 	public static void main(String[] args) {
 		
-		String str="AaBbCc";
+		String str="vAnDaNa nImBHoRe";
 		String st="";
 		String st1="";
 		char ch[]=str.toCharArray();	
-	     for(int i=0;i<str.length();i++)
+	     for(int i=0;i<ch.length;i++)
 	     {
-	    	 if(ch[i]>=97&&ch[i]<=122)
+	    	 if(ch[i]>='A' && ch[i]<='Z')
 	    	 { 
-	    		  st= str.toUpperCase();
+	    		  st= str.toLowerCase();
 	    	 }
-	    	 else if(ch[i]>=41 &&ch[i]<=96)
+	    	 else 
 	    		 
 	    	 {
-	    		  st1=str.toLowerCase();
+	    		  st1=str.toUpperCase();
 	    	 }
 	     }
 	     System.out.println(st);

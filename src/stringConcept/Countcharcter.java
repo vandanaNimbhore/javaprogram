@@ -1,23 +1,27 @@
 package stringConcept;
 
+import java.util.HashMap;
+
 public class Countcharcter {
 	public static void main(String[] args) {
-		String str="welcome to India";
-		char ch[]=str.toCharArray();
-		int count =0;
-		for(int i=0;i<str.length();i++)
+		String str="welcometoIndia";
+		char []ch=str.toCharArray();
+		HashMap<Character,Integer>hm=new HashMap<>();
+		for(char c:ch)
 		{
-			for(int j=i+1;j<str.length();j++)
-			{
-				if(ch[i]==ch[j])
-				{
-					count++;
-					System.out.println(count);
-				}
-			}
-			
-		}
 		
-	}
+		   if(!hm.containsKey(c))
+		   {
+			hm.put(c, 1);
+		   }
+		   else
+		   {
+			   int value=hm.get(c);
+			   hm.put(c, value+1);
+		   }
+		   
+		}
+		   System.out.println(hm);
 
 }
+} 

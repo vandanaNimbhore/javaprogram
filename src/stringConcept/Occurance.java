@@ -4,11 +4,11 @@ import java.util.HashMap;
 
 public class Occurance {
 	public static void main(String[] args) {
-		HashMap<String,Integer> occurance=new HashMap<>();
-		String str="india is india country";
-		String abc[]=str.split(" ");
+		HashMap<Character,Integer> occurance=new HashMap<>();
+		String str="vandana";
+		//String abc[]=str.split(" ");
 		char st[]=str.toCharArray();
-		for(int i=0;i<abc.length;i++)
+		/*for(int i=0;i<abc.length;i++)
 		{
 			for(int j=i+1;j<abc.length;j++)
 			{
@@ -17,8 +17,8 @@ public class Occurance {
 					System.out.println(abc[i]);
 				}
 			}
-		}
-		/*for(String s:abc)
+		}*/
+		/*for(String s:st)
 		{
 			if(!occurance.containsKey(s))
 			{
@@ -32,7 +32,9 @@ public class Occurance {
 			
 		}*/
 		//System.out.println(occurance);
-		/*for(char s:st)
+		
+		
+		for(char s:st)
 		{
 			if(!occurance.containsKey(s))
 			{
@@ -45,7 +47,7 @@ public class Occurance {
 			}
 			
 		}
-		System.out.println(occurance);*/
+		System.out.println(occurance);
 		
 	}
 
